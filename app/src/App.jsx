@@ -2,6 +2,8 @@ import About from "./components/about";
 import Contact from "./components/contact";
 import Portofolio from "./components/portofolio";
 import Header from "./components/header";
+import Footer from "./components/footer";
+import Blog from "./components/blog";
 const list = ["Home","Services","About","Sign Up"];
 function NavBar(){
   return(
@@ -25,7 +27,9 @@ function App() {
       <Header />
       <About />
       <Portofolio />
+      <Blog />
       <Contact />
+      <Footer />
     </div>
   )
 }

@@ -15,7 +15,7 @@ function Com(){
 }
 export default function Portofolio(){
     return(
-      <div className="portfolio">
+      <div className="portfolio" id="portfolio">
         <div className="container">
         <h2>See some of our<br/>Creative work.</h2>
         <div className="row">

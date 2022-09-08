@@ -1,10 +1,11 @@
-import img from "../1.png";
+import img from "../images/hero.svg";
 export default function Header(){
     return(
     <>
           <header id="home">
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#">LOGO</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <div className="interactive-menu-button">
             <a href="#">
@@ -24,7 +25,10 @@ export default function Header(){
               <a className="nav-link" data-scroll href="#portfolio">Portfolio.</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" data-scroll href="#contact-us">Contact Us.</a>
+              <a className="nav-link" data-scroll href="#blog">Blog.</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" data-scroll href="#contact-us">Contact.</a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
