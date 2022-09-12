@@ -3,11 +3,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
 a {
   font-weight: 600;
   color: #314584;
@@ -332,7 +328,6 @@ p {
   width: 370px;
   height: auto;
 }
-/* Portfolio Gallery Hover */
 .photobox{
   display: inline-block;
 }
